@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.vstripe {
+    width: 1%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+}
+
+.hstripe {
+    height: 2%;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+}
+
+#red_square {
+    position: absolute;
+    width: 33%;
+    height: 28%;
+    background-color: rgb(129, 7, 7);
+    left: 52%;
+    top: 12%;
+}
+
+#yellow_square {
+    position: absolute;
+    width: 14%;
+    height: 10%;
+    background-color: rgb(228, 183, 34);
+    right: 0;
+    top: 0;
+}
+
+#blue_square {
+    position: absolute;
+    width: 29%;
+    height: 18.1%;
+    background-color: rgb(15, 0, 146);
+    left: 16%;
+    bottom: 10%;
+}
